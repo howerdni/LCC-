@@ -9,14 +9,14 @@
 ## 1. 常用近似公式
 
 在理想简化的分析中，忽略谐波和损耗等因素，可将换流器（无论整流或逆变）交流侧的有功功率 \(P_\text{AC}\) 与无功功率 \(Q_\text{AC}\) 视为：
-
+```
 \[
 \begin{aligned}
 P_\text{AC} &= 3 V I \cos \varphi \\
 Q_\text{AC} &= 3 V I \sin \varphi 
 \end{aligned}
 \]
-
+```
 其中：
 
 - \(V\) 为交流侧相应的相电压（或线电压，需与电流取值一致）。  
